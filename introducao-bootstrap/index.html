@@ -1,12 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Bootstrap na pagina web</title>
 </head>
 <body>
-    
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+            <img src="img/global_labs.png" width="150" height="80">             
+        </a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                   <a class="nav-link" href="#quemsomos">Quem somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#parceiros">Parceiros</a>
+                 </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="#servicos">Serviços</a>
+                 </li>
+            </ul>
+        </div>
+    </nav>  
+    <section id="quemsomos">
+        <div class="container-fluid quem-somos text-center margin">
+            <h3 class="margin">Quem somos</h3>
+            <img src="img/time.jpeg" class="rounded-circle" width="400" height="400">
+            <br>
+            <br>
+            <h6>Comprometidos com resultados</h6>
+        </div>
+    </section> 
+    <section id="parceiros">
+        <div class="container-fluid parc_parceiros text-center margin">
+            <h3 class="margin">Parceiros</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">                    
+                        
+                        <img src="img/digital_innovation_one.png" class="rounded-circle" width="100%" height="100%">
+                        
+                    </div>
+                    <div class="col-md-4">                    
+                        
+                        <img src="img/digital_innovation_one.png" class="rounded-circle" width="100%" height="100%">
+                        
+                    </div>
+                    <div class="col-md-4">                    
+                        
+                        <img src="img/digital_innovation_one.png" class="rounded-circle" width="100%" height="100%">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <section id="servicos">
+        <div class="container-fluid text-center margin servicos">
+            <h3 class="margin">Serviços</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">                    
+                            <p>Se trata de um framework para desenvolvimento dse sites responsivos, utilização em note , tablet e celulares</p>
+                            <img src="img/app.jpeg" class="rounded-circle" width="100%" height="100%">
+                            
+                        </div>  
+                        <div class="col-md-6">                    
+                            <p>Possui uma vasta biblioteca de componentes que facilita e agiliza desenvolvimento de paginas web </p>
+                            <img src="img/site1.jpg" class="rounded-circle" width="100%" height="100%">
+                            
+                        </div>    
+                    </div>
+                </div>            
+        </div>
+    </section>
+<br><br>
+<h2>Bootstrap</h2>
+<br><br>
+    <p>Se trata de um framework para desenvolvimento dse sites responsivos, utilização em note , tablet e celulares</p>
+    <p>Possui uma vasta biblioteca de componentes que facilita e agiliza desenvolvimento de paginas web </p>
+    <p>É um dos frameworks mais conhecidos e usados para desenvolvimento front-end</p>
+    <h6>Temas Bootstrap</h6>
+    <a href=""><p onclick="bootstrap()">Bootstrap downloads themes</p></a>
+    <h6>Site referência de cores</h6>
+    <a href=""><p onclick="color_codes()">Color codes</p></a>
+    <h6>Sites referência de imagens</h6>
+    <a href=""><p onclick="pexels()">Pexels</p></a>
+
+    <footer class="container-fluid text-center bg-footer margin">
+        <p>Desenvolvido por.:Deivson Soares</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
